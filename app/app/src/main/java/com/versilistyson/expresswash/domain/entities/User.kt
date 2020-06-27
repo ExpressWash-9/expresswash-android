@@ -24,6 +24,7 @@ data class Client(
     override val bannerImage: String
 
 ) : User()
+
 data class Washer(
     override val userId: Int,
     val washerId: Int,
